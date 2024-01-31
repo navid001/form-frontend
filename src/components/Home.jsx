@@ -1,10 +1,15 @@
+import { motion } from "framer-motion";
 import React from "react";
 import { Link } from "react-router-dom";
 
 const Home = () => {
 	return (
 		<>
-			<div className="hero bg-ribbonRed h-screen flex flex-col items-center justify-center text-white py-6">
+			<motion.div
+				className="hero bg-ribbonRed h-screen flex flex-col items-center justify-center text-white py-6"
+				initial={{ height: 0 }}
+				animate={{ height: "100vh", transition: { duration: 0.3 } }}
+				exit={{ y: "-100vh", transition: { duration: 0.3 } }}>
 				<img
 					src={"/Logo.png"}
 					alt="Logo"
@@ -38,7 +43,7 @@ const Home = () => {
 						</div>
 					</div>
 				</div>
-			</div>
+			</motion.div>
 		</>
 	);
 };
