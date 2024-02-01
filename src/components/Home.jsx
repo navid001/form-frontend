@@ -22,9 +22,7 @@ const Home = () => {
 							<div className="text-xl md:text-4xl lg:text-6xl text-mineShaft font-bold my-6 md:my-6">
 								The Next Big
 								<br className="hidden md:inline" />
-								<span className="inline md:hidden">
-									{" "}
-								</span>
+								<span className="inline md:hidden"> </span>
 								Idea is Yours
 							</div>
 						</div>
@@ -36,13 +34,21 @@ const Home = () => {
 								<div className="flex space-between mt-8 text-center">
 									<Link
 										to="/apply"
-										className="text-sm md:text-sm text-white bg-ribbonRed font-bold  hover:scale-125 transition-all duration-300  py-4 md:py-4 px-2 md:px-6 rounded-lg inline-block w-full md:w-auto mx-3">
-										Apply Now
+										className="text-sm md:text-sm text-white bg-ribbonRed font-bold  hover:scale-125 transition-all duration-300  py-4 md:py-4 px-2 lg:px-6 rounded-lg w-full md:w-auto mx-2 flex justify-center items-center">
+										<span className="mr-1">
+											Apply Now Us
+										</span>
+										<span className="text-2xl leading-none">
+											→
+										</span>
 									</Link>
 									<Link
 										to="/contact"
-										className="text-sm md:text-sm text-ribbonRed bg-whte border-ribbonRed border-2 font-bold hover:scale-125 transition-all duration-300  py-4 md:py-4 px-2 md:px-6 rounded-lg inline-block w-full md:w-auto mx-3">
-										Contact Us
+										className="text-sm md:text-sm text-ribbonRed bg-whte border-ribbonRed border-2 font-bold hover:scale-125 transition-all duration-300  py-4 md:py-4 px-2 lg:px-6 rounded-lg w-full md:w-auto mx-2 flex justify-center items-center">
+										<span className="mr-1">Contact Us</span>
+										<span className="text-2xl leading-none">
+											→
+										</span>
 									</Link>
 								</div>
 							</div>
