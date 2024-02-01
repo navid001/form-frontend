@@ -13,6 +13,7 @@ export default {
 				mineShaft: "#262626",
 				casablanca: "#fabc43",
 				pictonBlue: "#5bc4f1",
+				pinkish: "#FEF2F4",
 			},
 
 			fontFamily: {
