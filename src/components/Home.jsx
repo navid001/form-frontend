@@ -34,7 +34,7 @@ const Home = () => {
 								<div className="flex space-between mt-8 text-center">
 									<Link
 										to="/apply"
-										className="text-sm md:text-sm text-white bg-ribbonRed font-bold  hover:scale-125 transition-all duration-300  py-4 md:py-4 px-2 lg:px-6 rounded-lg w-full md:w-auto mx-2 flex justify-center items-center">
+										className="text-sm md:text-sm text-white bg-ribbonRed font-bold  hover:scale-125 transition-all duration-300  py-4 md:py-4 px-2 lg:px-6 rounded-lg w-full md:w-auto flex justify-center items-center">
 										<span className="mr-1">
 											Apply Now Us
 										</span>
@@ -44,7 +44,7 @@ const Home = () => {
 									</Link>
 									<Link
 										to="/contact"
-										className="text-sm md:text-sm text-ribbonRed bg-whte border-ribbonRed border-2 font-bold hover:scale-125 transition-all duration-300  py-4 md:py-4 px-2 lg:px-6 rounded-lg w-full md:w-auto mx-2 flex justify-center items-center">
+										className="text-sm md:text-sm text-ribbonRed bg-whte border-ribbonRed border-2 font-bold hover:scale-125 transition-all duration-300  py-4 md:py-4 px-2 lg:px-6 rounded-lg w-full md:w-auto ms-8 flex justify-center items-center">
 										<span className="mr-1">Contact Us</span>
 										<span className="text-2xl leading-none">
 											→
