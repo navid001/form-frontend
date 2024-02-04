@@ -77,12 +77,12 @@ const Home = () => {
 					<motion.div
 						className="hidden md:col-span-4 md:opacity-50 md:flex"
 						initial={{ x: "-25%", opacity: 0 }}
-						animate={arrowControls}
+						animate={{ x: 0, opacity: 1 }}
 						transition={{ duration: 0.8, delay: 0.3 }}>
 						<motion.img
 							src={"/arrow.svg"}
 							alt="Arrow"
-							className="transition-all duration-300 px-2 md:p-4 mb-4 h-full"
+							className="hover:scale-110 transition-all duration-300 px-2 md:p-4 mb-4 h-full"
 						/>
 					</motion.div>
 					<div className="col-span-1"></div>
